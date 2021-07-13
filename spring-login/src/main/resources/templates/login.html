@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+	<div class="container text-center">
+		<div style="margin-top:100px">
+			<h1>Welcome to Login Page</h1>
+		</div>
+		<form method="POST" style="max-width: 300px; margin: 0 auto;">
+
+			<div class="m-3">
+				<div class="form-group row">
+					<label class="col-form-label col-4">Username</label>
+					<div class="col-8">
+						<input type="text" class="form-control"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="m-3">
+				<div class="form-group row">
+					<label class="col-form-label col-4">Password</label>
+					<div class="col-8">
+						<input type="password" class="form-control" minlength="8" maxlength="21"/>
+					</div>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="btn btn-primary">Login</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
